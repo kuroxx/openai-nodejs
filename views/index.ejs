@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Chat Prompt Interface</title>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-messages"></div>
+        <input type="text" id="user-input" placeholder="Type your message..." onkeydown="handleKeyDown(event)">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="/chat.js"></script>
+</body>
+</html>
